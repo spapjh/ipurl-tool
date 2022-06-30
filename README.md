@@ -12,6 +12,7 @@
   - [VirusTotal API](#VirusTotal-API)
   - [AbuseIPDB](#AbuseIPDB)
 - [Screenshots](#Screenshots)
+- [Future Updates](#Future Updates)
 
 
 ## About 
@@ -68,3 +69,11 @@ More info: https://www.abuseipdb.com/register
 
 
 ## Screenshots
+
+
+
+
+## Future Updates
+
+- [ ] OS check coded to be compatible with Windows
+- [ ] Multiple inputs at once
