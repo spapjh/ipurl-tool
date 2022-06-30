@@ -7,6 +7,8 @@
   - [python3](#python3)
   - [PyQT6](#pyqt6)
   - [Requests](#requests)
+  - [VirusTotal Free API](#Virustotal-Free-API)
+  - [AbuseIPDB Free API](#AbuseIPDB-Free-API)
 - [How to use](#How-to-use)
 - [Free API Limitations](#Free-API-Limitations)
   - [VirusTotal API](#VirusTotal-API)
@@ -17,7 +19,9 @@
 
 ## About 
 
-Simple macOS tool to help SOC and other blueteamers/cybersecurity professionals. You can use the tool to perform nslookup, ping, whois searches, search for URL reputation with VirusTotal integration, and search for IP address reputation via AbuseIPDB
+Simple macOS tool to help SOC and other blueteamers/cybersecurity professionals. You can use the tool to perform nslookup, ping, whois searches, search for URL reputation with VirusTotal integration, and search for IP address reputation via AbuseIPDB.
+
+WINDOWS INFORMATION: In its current version, whois function does not work if in Windows, and a small modification listed in [how to use](#how-to-use) is needed for ping to work correctly. 
 
 ## Requirements
 
@@ -43,13 +47,42 @@ Via Terminal
 More information on how to install requests module: https://www.pypi.org/project/requests/
 
 
+### VirusTotal Free API
+
+How to get VirusTotal Free API
+  - Visit: https://www.virustotal.com/gui/join-us
+  - Register for a VirusTotal account or log into your account if already created
+ 
+ 
+Once registered, do the following for ipurl to work as intended:
+  - Once logged into your VirusTotal account, navigate to the API Key section of your profile
+  - Copy your API Key value
+  - Paste your VirusTotal Free API key into ``` line 130 ``` of ``` ipurl.py ```
+
+For more information on VirusTotal API visit: https://developers.virustotal.com/reference/overview
+
+
+### AbuseIPDB Free API
+
+How to get AbuseIPDB Free API
+  - Visit https://www.abuseipdb.com/register
+  - Register for an AbuseIPDBd account or log into your account if already created
+  
+Once registered, do the following for ipurl to work as intended:
+  - Once loggedinto your AbuseIPDB account, navigate to the API section of your profile
+  - Create an API Key, name it as you please, and copy your new API key value
+  - Paste your AbuseIPDB Free API key into ``` line 155 ``` of ``` ipurl.py ```
+  
+
+For more information on AbuseIPDB API visit: https://www.abuseipdb.com/api.html
+
 ## How to use
 
 1) First, install all requirements under [requirements](#requirements)
-2) Obtain a VirusTotal Free API Key, and add the API Key to ____ of main.py. (More info on dependencies.md)
-3) Obtain an AbuseIPD Free API Key, and add the API Key to line ___ of main.py (More info on dependencies.md)
+2) Obtain a VirusTotal Free API Key, and add the API Key to ``` line 130 ``` of ``` ipurl.py.``` (More info under [requirements](#requirements))
+3) Obtain an AbuseIPD Free API Key, and add the API Key to ``` line 155 ``` of ``` ipurl.py ```  (More info under [requirements](#requirements))
 4) <ins>**If Windows**</ins>, in line ____ of main.py, remove ``` -c 5 ``` .
-5) Run main.py from the directory it is stored using  ``` python3 main.py ```
+5) Run ipurl.py from the directory it is stored using  ``` python3 main.py ```
 
 ## Free API Limitations
 
@@ -78,6 +111,6 @@ More info: https://www.abuseipdb.com/register
 
 ## Future Updates
 
-- [ ] Format json return from VirusTotal and AbuseIPDB integrations
-- [ ] OS check coded to be compatible with Windows
-- [ ] Multiple inputs at once
+- [X] Format json return from VirusTotal and AbuseIPDB integrations
+- [ ] OS check coded to be fully compatible with Windows
+- [ ] Multiple inputs at once / Ability to take .csv and .txt files as input
