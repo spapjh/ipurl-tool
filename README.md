@@ -78,11 +78,11 @@ For more information on AbuseIPDB API visit: https://www.abuseipdb.com/api.html
 
 ## How to use
 
-1) First, install all requirements under [requirements](#requirements)
+1) First, install all requirements under [requirements](#requirements) and download ``` ipurl.py ``` from this repo
 2) Obtain a VirusTotal Free API Key, and add the API Key to ``` line 130 ``` of ``` ipurl.py.``` (More info under [requirements](#requirements))
 3) Obtain an AbuseIPD Free API Key, and add the API Key to ``` line 155 ``` of ``` ipurl.py ```  (More info under [requirements](#requirements))
 4) <ins>**If Windows**</ins>, in line ____ of main.py, remove ``` -c 5 ``` .
-5) Run ipurl.py from the directory it is stored using  ``` python3 main.py ```
+5) Run ipurl.py from the directory it is stored using  ``` python3 ipurl.py ```
 
 ## Free API Limitations
 
