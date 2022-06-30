@@ -48,7 +48,8 @@ More information on how to install requests module: https://www.pypi.org/project
 1) First, install all requirements under [requirements](#requirements)
 2) Obtain a VirusTotal Free API Key, and add the API Key to ____ of main.py. (More info on dependencies.md)
 3) Obtain an AbuseIPD Free API Key, and add the API Key to line ___ of main.py (More info on dependencies.md)
-4) Run main.py from the directory it is stored using  ``` python3 main.py ```
+4) <ins>**If Windows**</ins>, in line ____ of main.py, remove ``` -c 5 ``` .
+5) Run main.py from the directory it is stored using  ``` python3 main.py ```
 
 ## Free API Limitations
 
@@ -70,10 +71,13 @@ More info: https://www.abuseipdb.com/register
 
 ## Screenshots
 
+![whois](/readmeimgs/whois.png)
 
+![abuseipdb](/readmeimgs/AbuseIPDB.png)
 
 
 ## Future Updates
 
+- [ ] Format json return from VirusTotal and AbuseIPDB integrations
 - [ ] OS check coded to be compatible with Windows
 - [ ] Multiple inputs at once
