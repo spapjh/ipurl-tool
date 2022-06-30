@@ -104,9 +104,11 @@ More info: https://www.abuseipdb.com/register
 
 ## Screenshots
 
-![whois](/readmeimgs/whois.png)
+### VirusTotal Search
+![VirusTotal](/readmeimgs/VirusTotal.png)
 
-![abuseipdb](/readmeimgs/AbuseIPDB.png)
+### AbuseIPDB Search
+![AbuseIPDB](/readmeimgs/AbuseIPDB.png)
 
 
 ## Future Updates
