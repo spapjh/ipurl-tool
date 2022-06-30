@@ -105,7 +105,7 @@ More info: https://www.abuseipdb.com/register
 ## Screenshots
 
 ### VirusTotal Search
-![VirusTotal](/readmeimgs/VirusTotal.png)
+![VirusTotal](/readmeimgs/VirusTotal2.png)
 
 ### AbuseIPDB Search
 ![AbuseIPDB](/readmeimgs/AbuseIPDB.png)
