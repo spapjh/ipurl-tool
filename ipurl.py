@@ -25,7 +25,7 @@ import requests
 class MyApp(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle('SOC IPURL TOOL') #setting window title
+        self.setWindowTitle('IPURL TOOL') #setting window title
         self.resize(800, 450) #setting width,height of main window
         
 
@@ -42,7 +42,7 @@ class MyApp(QWidget):
 
         # pingButton
         self.pingbutton = QPushButton()
-        self.pingbutton.setText("Ping")
+        self.pingbutton.setText("ping")
         self.pingbutton.clicked.connect(self.pingbuttonclicked)
 
 
