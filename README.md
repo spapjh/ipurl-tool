@@ -12,7 +12,7 @@
   - [VirusTotal API](#VirusTotal-API)
   - [AbuseIPDB](#AbuseIPDB)
 - [Screenshots](#Screenshots)
-- [Future Updates](#Future Updates)
+- [Future Updates](#Future-Updates)
 
 
 ## About 
